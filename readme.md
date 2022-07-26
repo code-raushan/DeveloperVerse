@@ -12,8 +12,9 @@ This webpage is a landing page of a Developer Agency build purely in HTML and CS
     - using `flex` properties inside another `flex`
 
 
-Below is the view and link of the page👇👇👇
+Below is the view and link of the page👇👇👇<br>
 [Developer Mania](developermania.netlify.app)
+
 
 
 ![Developer-Agency](./project9css.png)
