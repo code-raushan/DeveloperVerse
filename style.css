@@ -1,0 +1,246 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  
+}
+
+header{
+  background-color: #481AFE;
+  color: white;
+  padding-left: 60px;
+  height: 70vh;
+}
+nav{
+  padding: 20px 60px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+}
+a:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.nav-item-active{
+  padding: 7.5px 15px;
+  background-color: #fff;
+  color: #481AFE;
+  border-radius: 5px;
+}
+.logo{
+  margin-bottom: 50px;
+}
+.header-text h2{
+  font-size: 180%;
+}
+.text-content{
+  display: flex;
+  justify-content: space-between;
+}
+.header-image{
+  position: relative;
+  bottom: 80px;
+}
+.companies{
+  background-color: #F8F8FA;
+  padding-left: 60px;
+  padding-top: 15px;
+  padding-bottom: 80px;
+  display: flex;
+  gap: 40px;
+  
+}
+.company-items{
+  font-family: Poppins;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.api{
+  padding-top: 10px;
+  padding-left: 60px;
+  background-color: #F8F8FA;
+}
+.cards{
+  padding-top: 30px;
+  padding-bottom: 60px;
+  display: flex;
+  gap: 35px;
+}
+.card-active{
+  padding: 15px 15px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px rgb(109, 104, 104);
+}
+
+.blog-heading{
+  padding-top: 50px;
+  padding-left: 60px;
+  padding-bottom: 20px;
+  font-weight: bolder;
+  font-size: 130%;
+  background-color: #F8F8FA;
+}
+.blog-cards{
+  padding-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  background-color:#F8F8FA ;
+}
+.blog-card{
+  display: flex;
+  
+}
+.blog-inner{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+  padding-bottom: 0px;
+  /* margin-bottom: 12px; */
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  
+  box-shadow: 1px 1px 10px  rgb(104, 97, 97);
+  background-color: #fff;
+  height: 288px;
+}
+.blog-content>h6{
+  color: #5A31FC;
+  padding-bottom: 10px;
+}
+
+.blog-content>small{
+  font-size: 10px;
+  line-height: 10%;
+}
+.blog-content{
+  margin-bottom: 0;
+}
+.blog-author{
+  position: relative;
+  bottom: 10px;
+  left: 30px;
+}
+
+
+.blog-card-bottom-image{
+  position: relative;
+  top: 50px;
+}
+.faq-section{
+  height: auto;
+  padding-left: 60px;
+  padding-right: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  background-color: #E9EDFF;
+  display: flex;
+  justify-content: space-between;
+}
+
+.faq-content{
+  padding-top: 30px;
+}
+.faq-content>h2{
+  font-size: 40px;
+  line-height: 100%;
+  padding-bottom: 30px;
+}
+.first-h4{
+  font-size: 10px;
+}
+.second-h4{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 15px;
+}
+.faq-content button{
+  padding: 10px 20px;
+  background-color: #5A31FC;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+}
+.download-section{
+  padding: 40px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.download-content h1>span{
+  font-size: 25px;
+}
+form{
+  display: flex;
+  gap: 0;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 2px;
+  padding-left: 30px;
+  border: 0;
+  border-radius: 20px;
+  background-color: #E9EDFF;
+}
+input{
+  padding: 10px 30px;
+  border: 0;
+  background-color: #E9EDFF;
+  color: black;
+
+  
+}
+form button{
+  padding: 10px 20px;
+  background-color: #5A31FC;
+  color: white;
+  border-radius: 20px;
+  border: 0;
+}
+.footer-section{
+  background-color: #481AFE;
+  color: white;
+  padding: 30px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list{
+  display: flex;
+}
+.footer-logo{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footer-logo:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.logos-list{
+  display: flex;
+}
+.footer-right{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footer-logos{
+  cursor: pointer;
+  
+}
+.list-items{
+  list-style-type: none;
+}
+.list-items:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+}
